@@ -4,7 +4,10 @@ class Register extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Register Page'),
+      body: Center(
+        child: Text('Register Page',
+            style: TextStyle(color: Colors.black, fontSize: 30)),
+      ),
     );
   }
 }
